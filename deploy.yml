@@ -1,0 +1,30 @@
+name: Deploy Credit Card to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.2.0]
+    steps:
+      - uses: actions/checkout@v3
+      - name: install, build, and test
+        run: |
+          yarn install
+          yarn lint
+          yarn build
+          yarn test
+        env:
+          CI: true
+      - name: Deploy to production
+        uses: awibox/deploy-to-github-pages-action@master
+        env:
+          AUTHOR: Barath S
+          BUILD_PATH: public
+          GITHUB_PAGE_NAME: CreditCardOCR
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+          USERNAME: Barath2803
+          EMAIL: sbarath4004@gmail.com
