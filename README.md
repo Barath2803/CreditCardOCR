@@ -60,9 +60,9 @@ torchvision==0.17.0+cu121
 
 ## Sample Images
 
-![Initial UI Page](images/initial_page.png)
-![Test 1](Test1.png)
-![Test 2](Test2.png)
+![Initial UI Page](CreditCardOCR/images/initial_page)
+![Test 1](CreditCardOCR/images/Test1.png)
+![Test 2](CreditCardOCR/images/Test2.png)
 
 ## Usage 🛠️
 Start the FastAPI server to handle OCR extraction requests.
