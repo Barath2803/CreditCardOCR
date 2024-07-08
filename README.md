@@ -60,7 +60,7 @@ torchvision==0.17.0+cu121
 
 ## Sample Images
 
-![Initial UI Page](images/initial_page.png)
+![Initial UI Page](images/Initial_page.png)
 ![Test 1](images/Test1.png)
 ![Test 2](images/Test2.png)
 
