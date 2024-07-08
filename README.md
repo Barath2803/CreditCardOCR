@@ -58,6 +58,12 @@ torchvision==0.17.0+cu121
    streamlit run ocr_ui.py
    ```
 
+## Sample Images
+
+![Initial UI Page](images/initial_page.png)
+![Test 1](Test1.png)
+![Test 2](Test2.png)
+
 ## Usage 🛠️
 Start the FastAPI server to handle OCR extraction requests.
 Open the Streamlit UI to upload images and display the results.
