@@ -1,20 +1,20 @@
 # CreditCardOCR 📇💳
 
-CreditCardOCR is a powerful tool for extracting key details from credit or debit cards using the Florence2 Large model finetuned for this task. The model leverages state-of-the-art vision-language technology to accurately identify and extract details such as the account number, holder name, and valid date from images of cards. Post-processing is done using regular expressions to clean and extract the necessary details.
+CreditCardOCR is a powerful tool for extracting key details from credit or debit cards using the Florence2 Large model fine-tuned for this task. The model leverages state-of-the-art vision-language technology to accurately identify and extract details such as the account number, holder name, and valid date from images of cards. Post-processing is done using regular expressions to clean and extract the necessary details.
 
 ## Introduction 🚀
 
 Extracting information from credit cards has never been easier! This project uses the Florence2 Large model, fine-tuned specifically for OCR tasks, combined with regular expressions for post-processing to ensure clean and accurate data extraction. Simply upload an image of a credit or debit card, and the tool will return the account number, holder name, and valid date.
 
-### Basic Use Case
+### Basic Use Case 🛠️
 
-1. **Upload an Image**: Provide an image of a credit or debit card.
-2. **Extract Information**: The model processes the image and extracts the account number, holder name, and valid date.
-3. **Receive Results**: Get the extracted details quickly and efficiently.
+1. **Upload an Image**: 📤 Provide an image of a credit or debit card.
+2. **Extract Information**: 📊 The model processes the image and extracts the account number, holder name, and valid date.
+3. **Receive Results**: ✅ Get the extracted details quickly and efficiently.
 
 ## Real-Life Application 🌟
 
-**Streamlined Checkout Process in E-commerce**:
+**Streamlined Checkout Process in E-commerce** 🛒:
 CreditCardOCR can be integrated into e-commerce platforms to automate the entry of payment details. Customers can upload an image of their card during checkout, and the tool will automatically fill in their payment information. This enhances user experience, reduces errors, and increases conversion rates by providing a quick and hassle-free checkout process.
 
 ## Requirements 📦
@@ -65,9 +65,9 @@ torchvision==0.17.0+cu121
 ![Test 2](images/Test2.png)
 
 ## Usage 🛠️
-Start the FastAPI server to handle OCR extraction requests.
-Open the Streamlit UI to upload images and display the results.
-By following these steps, you can easily set up and run the CreditCardOCR tool to extract important details from credit and debit cards.
+- **Start the FastAPI server** to handle OCR extraction requests.
+- **Open the Streamlit UI** to upload images and display the results.
+- By following these steps, you can easily set up and run the CreditCardOCR tool to extract important details from credit and debit cards.
 
 ## Contributing 🤝
 We welcome contributions! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
