@@ -73,5 +73,3 @@ torchvision==0.17.0+cu121
 We welcome contributions! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
 ## Happy extracting! 🥳
-
-Feel free to adjust the emojis and any additional content to best suit your project's style and tone.
