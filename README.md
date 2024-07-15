@@ -74,3 +74,6 @@ We welcome contributions! If you have any ideas, suggestions, or improvements, f
 
 ## Happy extracting! 🥳
 
+---
+
+Feel free to adjust the emojis and any additional content to best suit your project's style and tone.
